@@ -1,2 +1,3 @@
 # ExtraBehaviorDesign
-EBD is a BTs tool which is based on the design of Opsive's Behavior Designer and extend it's functions for unity developers.
+-----------------------------------------------------------------
+With EBD, AI developers can do sth. them can't in BD:1、
