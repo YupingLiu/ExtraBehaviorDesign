@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI_huoyuedu_s_fx
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: .400000095, y: .400000095, z: .400000095}
+        outSlope: {x: 1, y: 1, z: 1}
+        tangentMode: 611319844
+      - time: .666666687
+        value: {x: 1.5, y: 1.5, z: 1.5}
+        inSlope: {x: 1, y: 1, z: 1}
+        outSlope: {x: .400000095, y: .400000095, z: .400000095}
+        tangentMode: 1065353216
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: UI_Scale/Glow001
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: .171428606, y: .171428606, z: .171428606}
+        outSlope: {x: .428571403, y: .428571403, z: .428571403}
+        tangentMode: 0
+      - time: 1.33333337
+        value: {x: 1.5, y: 1.5, z: 1.5}
+        inSlope: {x: .428571403, y: .428571403, z: .428571403}
+        outSlope: {x: .171428606, y: .171428606, z: .171428606}
+        tangentMode: 620786277
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: UI_Scale/Glow002
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.09918153, y: 1.09918129, z: 1.09918129}
+        inSlope: {x: -.68587786, y: -.685877681, z: -.685877681}
+        outSlope: {x: -.68587786, y: -.685877681, z: -.685877681}
+        tangentMode: 0
+      - time: .333333343
+        value: {x: .87055558, y: .870555401, z: .870555401}
+        inSlope: {x: -.228625953, y: -.228625894, z: -.228625894}
+        outSlope: {x: -.228625953, y: -.228625894, z: -.228625894}
+        tangentMode: 0
+      - time: 1.33333337
+        value: {x: 1.09918153, y: 1.09918129, z: 1.09918129}
+        inSlope: {x: .228625953, y: .228625894, z: .228625894}
+        outSlope: {x: .228625953, y: .228625894, z: .228625894}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: UI_Scale/Glow003
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 6
+        outSlope: 6
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 2.57142854
+        outSlope: 2.57142854
+        tangentMode: 10
+      - time: 1.33333337
+        value: 0
+        inSlope: -.857142806
+        outSlope: -.857142806
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Color.a
+    path: UI_Scale/Glow002
+    classID: 114
+    script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 6
+        outSlope: 6
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 10
+      - time: .666666687
+        value: 0
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Color.a
+    path: UI_Scale/Glow001
+    classID: 114
+    script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 2917244472
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 887672706
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1139801876
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 887672706
+      attribute: 304273561
+      script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2917244472
+      attribute: 304273561
+      script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1.33333337
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 6
+        outSlope: 6
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 2.57142854
+        outSlope: 2.57142854
+        tangentMode: 10
+      - time: 1.33333337
+        value: 0
+        inSlope: -.857142806
+        outSlope: -.857142806
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Color.a
+    path: UI_Scale/Glow002
+    classID: 114
+    script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 6
+        outSlope: 6
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 10
+      - time: .666666687
+        value: 0
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_Color.a
+    path: UI_Scale/Glow001
+    classID: 114
+    script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: .400000095
+        outSlope: 1
+        tangentMode: 21
+      - time: .666666687
+        value: 1.5
+        inSlope: 1
+        outSlope: .400000095
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: UI_Scale/Glow001
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: .400000095
+        outSlope: 1
+        tangentMode: 21
+      - time: .666666687
+        value: 1.5
+        inSlope: 1
+        outSlope: .400000095
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: UI_Scale/Glow001
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: .400000095
+        outSlope: 1
+        tangentMode: 21
+      - time: .666666687
+        value: 1.5
+        inSlope: 1
+        outSlope: .400000095
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: UI_Scale/Glow001
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: .171428606
+        outSlope: .428571403
+        tangentMode: 21
+      - time: 1.33333337
+        value: 1.5
+        inSlope: .428571403
+        outSlope: .171428606
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: UI_Scale/Glow002
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: .171428606
+        outSlope: .428571403
+        tangentMode: 21
+      - time: 1.33333337
+        value: 1.5
+        inSlope: .428571403
+        outSlope: .171428606
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: UI_Scale/Glow002
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: .171428606
+        outSlope: .428571403
+        tangentMode: 21
+      - time: 1.33333337
+        value: 1.5
+        inSlope: .428571403
+        outSlope: .171428606
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: UI_Scale/Glow002
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.09918153
+        inSlope: -.68587786
+        outSlope: -.68587786
+        tangentMode: 10
+      - time: .333333343
+        value: .87055558
+        inSlope: -.228625953
+        outSlope: -.228625953
+        tangentMode: 10
+      - time: 1.33333337
+        value: 1.09918153
+        inSlope: .228625953
+        outSlope: .228625953
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: UI_Scale/Glow003
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.09918129
+        inSlope: -.685877681
+        outSlope: -.685877681
+        tangentMode: 10
+      - time: .333333343
+        value: .870555401
+        inSlope: -.228625894
+        outSlope: -.228625894
+        tangentMode: 10
+      - time: 1.33333337
+        value: 1.09918129
+        inSlope: .228625894
+        outSlope: .228625894
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: UI_Scale/Glow003
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.09918129
+        inSlope: -.685877681
+        outSlope: -.685877681
+        tangentMode: 10
+      - time: .333333343
+        value: .870555401
+        inSlope: -.228625894
+        outSlope: -.228625894
+        tangentMode: 10
+      - time: 1.33333337
+        value: 1.09918129
+        inSlope: .228625894
+        outSlope: .228625894
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: UI_Scale/Glow003
+    classID: 224
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E0862A56-C350-6B96-DB47-D7692BA23505}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EventTriggerListener.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\AbortTpye.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Action.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Behavior.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\BehaviorManager.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\BehaviorSource.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\BehaviorTree.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\BehaviorTreeDeserialize.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\BehaviorTreeSerialize.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Composite.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Composites\Parallel.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Composites\ParallelSelector.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Composites\Selector.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Composites\Sequence.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Decorator.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Decorators\UntilSuccess.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\ExternalBehavior.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\ExternalBehaviorTree.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\IBehavior.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\IVariableSource.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\JsonSerialize.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\NodeData.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\ParentTask.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Task.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\TaskCoroutine.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\TaskDescriptionAttribute.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\TaskSerializationData.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\TaskStatus.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\Tasks\BehaviorReference.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\UnknownParentTask.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\Runtime\UnknownTask.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\CanISeePlayer.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\MiddleBT.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\RotateByY.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\SimpleAction1.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\SimpleAction2.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\SimpleBT.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\TestCreateAsset.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\TestGetComponent.cs" />
+     <Compile Include="Assets\ExtraBehaviorDesign\TestScripts\TranslatetoARandomPosition.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

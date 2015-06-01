@@ -1,0 +1,734 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: kapai03
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: {x: 0, y: 485, z: -734}
+        inSlope: {x: 11.9999905, y: -16190.9873, z: 0}
+        outSlope: {x: 11.9999905, y: -16190.9873, z: 0}
+        tangentMode: 0
+      - time: .933333337
+        value: {x: .400000006, y: -54.7000008, z: -734}
+        inSlope: {x: 5.99999523, y: 0, z: 0}
+        outSlope: {x: 5.99999523, y: 0, z: 0}
+        tangentMode: 0
+      - time: .966666639
+        value: {x: .400000006, y: -72.3000031, z: -734}
+        inSlope: {x: -5.99999523, y: 0, z: 0}
+        outSlope: {x: -5.99999523, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 0, y: -39, z: -734}
+        inSlope: {x: -31.5000191, y: 0, z: 0}
+        outSlope: {x: -31.5000191, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.0333333
+        value: {x: -1.70000005, y: -34.7000008, z: -734}
+        inSlope: {x: 8.99988747, y: 0, z: 0}
+        outSlope: {x: 8.99988747, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.06666672
+        value: {x: .600000024, y: -43.4000015, z: -734}
+        inSlope: {x: 37.4999161, y: 0, z: 0}
+        outSlope: {x: 37.4999161, y: 0, z: 0}
+        tangentMode: 778741580
+      - time: 1.10000002
+        value: {x: .800000012, y: -35.4000015, z: -734}
+        inSlope: {x: -4.50000477, y: 0, z: 0}
+        outSlope: {x: -4.50000477, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.13333333
+        value: {x: .300000012, y: -38.2000008, z: -734}
+        inSlope: {x: -12.0000114, y: 0, z: 0}
+        outSlope: {x: -12.0000114, y: 0, z: 0}
+        tangentMode: 779834896
+      - time: 1.16666663
+        value: {x: 0, y: -39, z: -734}
+        inSlope: {x: -9.00000858, y: -24, z: 0}
+        outSlope: {x: -9.00000858, y: -0, z: 0}
+        tangentMode: 777577948
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: kapai01
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: {x: 196.661499, y: 196.661392, z: 196.661392}
+        inSlope: {x: 6391.30762, y: 6391.3042, z: 6391.3042}
+        outSlope: {x: 6391.30762, y: 6391.3042, z: 6391.3042}
+        tangentMode: 0
+      - time: .933333337
+        value: {x: 409.705261, y: 409.705048, z: 409.705048}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 2086281974
+      - time: .966666639
+        value: {x: 346.799988, y: 346.799988, z: 346.799988}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -149099874
+      - time: 1
+        value: {x: 104.159698, y: 104.159683, z: 104.159683}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: kapai01
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .966666639
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: UI_kapai_S001_fx
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai10
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai09
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai08
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai07
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai06
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai05
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai04
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai03
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai02
+    classID: 1
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 1688448337
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1688448337
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2160684171
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2657955664
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 4272596661
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2309854755
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 420645810
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1846917924
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 4145867422
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2149308936
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 511659947
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1769504573
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1.16666663
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: 0
+        inSlope: 11.9999905
+        outSlope: 11.9999905
+        tangentMode: 10
+      - time: .933333337
+        value: .400000006
+        inSlope: 5.99999523
+        outSlope: 5.99999523
+        tangentMode: 10
+      - time: .966666639
+        value: .400000006
+        inSlope: -5.99999523
+        outSlope: -5.99999523
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -31.5000191
+        outSlope: -31.5000191
+        tangentMode: 10
+      - time: 1.0333333
+        value: -1.70000005
+        inSlope: 8.99988747
+        outSlope: 8.99988747
+        tangentMode: 10
+      - time: 1.06666672
+        value: .600000024
+        inSlope: 37.4999161
+        outSlope: 37.4999161
+        tangentMode: 10
+      - time: 1.10000002
+        value: .800000012
+        inSlope: -4.50000477
+        outSlope: -4.50000477
+        tangentMode: 10
+      - time: 1.13333333
+        value: .300000012
+        inSlope: -12.0000114
+        outSlope: -12.0000114
+        tangentMode: 10
+      - time: 1.16666663
+        value: 0
+        inSlope: -9.00000858
+        outSlope: -9.00000858
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: kapai01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: 485
+        inSlope: -16190.9873
+        outSlope: -16190.9873
+        tangentMode: 10
+      - time: .933333337
+        value: -54.7000008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666639
+        value: -72.3000031
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: -39
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1.0333333
+        value: -34.7000008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1.06666672
+        value: -43.4000015
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1.10000002
+        value: -35.4000015
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1.13333333
+        value: -38.2000008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1.16666663
+        value: -39
+        inSlope: -24
+        outSlope: -0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: kapai01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .933333337
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .966666639
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.0333333
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.06666672
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.10000002
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.13333333
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.16666663
+        value: -734
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: kapai01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: 196.661499
+        inSlope: 6391.30762
+        outSlope: 6391.30762
+        tangentMode: 10
+      - time: .933333337
+        value: 409.705261
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666639
+        value: 346.799988
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 104.159698
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: kapai01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: 196.661392
+        inSlope: 6391.3042
+        outSlope: 6391.3042
+        tangentMode: 10
+      - time: .933333337
+        value: 409.705048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666639
+        value: 346.799988
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 104.159683
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: kapai01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .899999976
+        value: 196.661392
+        inSlope: 6391.3042
+        outSlope: 6391.3042
+        tangentMode: 10
+      - time: .933333337
+        value: 409.705048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666639
+        value: 346.799988
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 104.159683
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: kapai01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .966666639
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 1
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: UI_kapai_S001_fx
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai10
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai09
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai08
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai07
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai06
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai05
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai04
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai03
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: kapai01/kapai02
+    classID: 1
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

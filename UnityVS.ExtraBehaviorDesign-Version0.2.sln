@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.ExtraBehaviorDesign-Version0.2.CSharp", "UnityVS.ExtraBehaviorDesign-Version0.2.CSharp.csproj", "{77380B90-51B5-1C11-257C-937EEF994D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.ExtraBehaviorDesign-Version0.2.CSharp.Editor", "UnityVS.ExtraBehaviorDesign-Version0.2.CSharp.Editor.csproj", "{3FB59404-9397-4906-EBC3-35BABC7612F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.ExtraBehaviorDesign-Version0.2.CSharp.Plugins", "UnityVS.ExtraBehaviorDesign-Version0.2.CSharp.Plugins.csproj", "{FBE5F602-5E25-62CF-E87E-48022E70F711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77380B90-51B5-1C11-257C-937EEF994D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77380B90-51B5-1C11-257C-937EEF994D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77380B90-51B5-1C11-257C-937EEF994D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77380B90-51B5-1C11-257C-937EEF994D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB59404-9397-4906-EBC3-35BABC7612F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB59404-9397-4906-EBC3-35BABC7612F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB59404-9397-4906-EBC3-35BABC7612F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB59404-9397-4906-EBC3-35BABC7612F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE5F602-5E25-62CF-E87E-48022E70F711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE5F602-5E25-62CF-E87E-48022E70F711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE5F602-5E25-62CF-E87E-48022E70F711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE5F602-5E25-62CF-E87E-48022E70F711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI_kaipai_liuguan_fx
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -9.36817169
+        inSlope: 281.046021
+        outSlope: 343.500549
+        tangentMode: 21
+      - time: .300000012
+        value: 93.6819992
+        inSlope: 343.500549
+        outSlope: 650.640137
+        tangentMode: 21
+      - time: .333333343
+        value: 115.370003
+        inSlope: 650.640137
+        outSlope: -335.355011
+        tangentMode: 21
+      - time: 1
+        value: -108.199997
+        inSlope: -335.355011
+        outSlope: 435.540344
+        tangentMode: 21
+      - time: 1.0333333
+        value: -93.6819992
+        inSlope: 435.540344
+        outSlope: 281.046021
+        tangentMode: 21
+      - time: 1.33333337
+        value: -9.36817169
+        inSlope: 281.046021
+        outSlope: 281.046021
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_scale/mask01/liuguan01
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 100.25
+        inSlope: -697.920044
+        outSlope: -697.919983
+        tangentMode: 21
+      - time: .0333333351
+        value: 76.9860001
+        inSlope: -697.919983
+        outSlope: -288.697479
+        tangentMode: 21
+      - time: .300000012
+        value: 0
+        inSlope: -288.697479
+        outSlope: -248.972504
+        tangentMode: 21
+      - time: .699999988
+        value: -99.5889969
+        inSlope: -248.972504
+        outSlope: -248.972473
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_scale/mask02/liuguan02
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .300000012
+        value: 97.0289993
+        inSlope: -279.304504
+        outSlope: -279.304535
+        tangentMode: 21
+      - time: .966666639
+        value: -89.1740036
+        inSlope: -279.304535
+        outSlope: -279.304504
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_scale/mask03/liuguan03
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .666666687
+        value: -90.5479965
+        inSlope: 271.643951
+        outSlope: 271.643982
+        tangentMode: 21
+      - time: 1.33333337
+        value: 90.5479965
+        inSlope: 271.643982
+        outSlope: 271.643951
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_scale/mask04/liuguan04
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 3366.90039
+        tangentMode: 21
+      - time: .333333343
+        value: 112.230003
+        inSlope: 3366.90039
+        outSlope: 43.049984
+        tangentMode: 21
+      - time: 1
+        value: 140.929993
+        inSlope: 43.049984
+        outSlope: -4227.90381
+        tangentMode: 21
+      - time: 1.0333333
+        value: 0
+        inSlope: -4227.90381
+        outSlope: -4227.90381
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_scale/mask01/liuguan01
+    classID: 224
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 3835339813
+      attribute: 1460864421
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3832648606
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1392016584
+      attribute: 1460864421
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3852991720
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3835339813
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1.33333337
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -9.36817169
+        inSlope: 281.046021
+        outSlope: 343.500549
+        tangentMode: 21
+      - time: .300000012
+        value: 93.6819992
+        inSlope: 343.500549
+        outSlope: 650.640137
+        tangentMode: 21
+      - time: .333333343
+        value: 115.370003
+        inSlope: 650.640137
+        outSlope: -335.355011
+        tangentMode: 21
+      - time: 1
+        value: -108.199997
+        inSlope: -335.355011
+        outSlope: 435.540344
+        tangentMode: 21
+      - time: 1.0333333
+        value: -93.6819992
+        inSlope: 435.540344
+        outSlope: 281.046021
+        tangentMode: 21
+      - time: 1.33333337
+        value: -9.36817169
+        inSlope: 281.046021
+        outSlope: 281.046021
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_scale/mask01/liuguan01
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 100.25
+        inSlope: -697.920044
+        outSlope: -697.919983
+        tangentMode: 21
+      - time: .0333333351
+        value: 76.9860001
+        inSlope: -697.919983
+        outSlope: -288.697479
+        tangentMode: 21
+      - time: .300000012
+        value: 0
+        inSlope: -288.697479
+        outSlope: -248.972504
+        tangentMode: 21
+      - time: .699999988
+        value: -99.5889969
+        inSlope: -248.972504
+        outSlope: -248.972473
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_scale/mask02/liuguan02
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .300000012
+        value: 97.0289993
+        inSlope: -279.304504
+        outSlope: -279.304535
+        tangentMode: 21
+      - time: .966666639
+        value: -89.1740036
+        inSlope: -279.304535
+        outSlope: -279.304504
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_scale/mask03/liuguan03
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .666666687
+        value: -90.5479965
+        inSlope: 271.643951
+        outSlope: 271.643982
+        tangentMode: 21
+      - time: 1.33333337
+        value: 90.5479965
+        inSlope: 271.643982
+        outSlope: 271.643951
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_scale/mask04/liuguan04
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 3366.90039
+        tangentMode: 21
+      - time: .333333343
+        value: 112.230003
+        inSlope: 3366.90039
+        outSlope: 43.049984
+        tangentMode: 21
+      - time: 1
+        value: 140.929993
+        inSlope: 43.049984
+        outSlope: -4227.90381
+        tangentMode: 21
+      - time: 1.0333333
+        value: 0
+        inSlope: -4227.90381
+        outSlope: -4227.90381
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_scale/mask01/liuguan01
+    classID: 224
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

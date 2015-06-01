@@ -1,0 +1,11 @@
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\obj\Debug\UnityVS.ExtraBehaviorDesign-Version0.5-optSerialize.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Courses.8\GraduationFieldWork\Projects\ExtraBehaviorDesign-Version0.5-optSerialize\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml

@@ -1,0 +1,797 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI_Bossxinxi_fx
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 5.14999962, y: 5.14999962, z: 5.14999962}
+        outSlope: {x: 5.14999962, y: 5.14999962, z: 5.14999962}
+        tangentMode: -1054867456
+      - time: .200000003
+        value: {x: 1.02999997, y: 1.02999997, z: 1.02999997}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: -.0999998972, y: -.0999998972, z: -.0999998972}
+        outSlope: {x: -.0999998972, y: -.0999998972, z: -.0999998972}
+        tangentMode: 515981384
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: UI_Scale/Ani_fx
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: 0
+        inSlope: 2.99999976
+        outSlope: 2.99999976
+        tangentMode: 10
+      - time: .533333361
+        value: 1
+        inSlope: 2.99999976
+        outSlope: 2.99999976
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_FillAmount
+    path: UI_Scale/Ani_fx/taoxiang
+    classID: 114
+    script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: -95.6999969
+        inSlope: 585.000061
+        outSlope: 585.000061
+        tangentMode: 10
+      - time: .233333334
+        value: -76.1999969
+        inSlope: 429.833344
+        outSlope: 429.833344
+        tangentMode: 10
+      - time: .533333361
+        value: 6.19999981
+        inSlope: 272.633331
+        outSlope: 272.633331
+        tangentMode: 10
+      - time: .866666675
+        value: 96.4000015
+        inSlope: 270.600037
+        outSlope: 270.600037
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/Mask/Glow
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 187.002853
+        inSlope: 47.2393188
+        outSlope: 47.2393188
+        tangentMode: 10
+      - time: .266666681
+        value: 199.600006
+        inSlope: 2.624403
+        outSlope: 2.624403
+        tangentMode: 10
+      - time: .566666663
+        value: 187.002853
+        inSlope: -41.9905128
+        outSlope: -41.9905128
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/taitan
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -22.6850014
+        inSlope: -.0562477075
+        outSlope: -.0562477075
+        tangentMode: 10
+      - time: .266666681
+        value: -22.7000008
+        inSlope: -.00312487036
+        outSlope: -.00312487036
+        tangentMode: 10
+      - time: .566666663
+        value: -22.6850014
+        inSlope: .0499979667
+        outSlope: .0499979667
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/taitan
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 270.902863
+        inSlope: 32.6913757
+        outSlope: 32.6913757
+        tangentMode: 10
+      - time: .333333343
+        value: 281.799988
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .666666687
+        value: 270.902863
+        inSlope: -32.6913757
+        outSlope: -32.6913757
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/zi
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -15.784996
+        inSlope: -.0450124741
+        outSlope: -.0450124741
+        tangentMode: 10
+      - time: .333333343
+        value: -15.8000002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .666666687
+        value: -15.784996
+        inSlope: .0450124741
+        outSlope: .0450124741
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/zi
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: -110.300003
+        inSlope: 132.479996
+        outSlope: 132.479996
+        tangentMode: 10
+      - time: 2.66666675
+        value: 110.5
+        inSlope: 132.479996
+        outSlope: 132.479996
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/Mask01/Glow01
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 187.002853
+        inSlope: 55.9857178
+        outSlope: 55.9857178
+        tangentMode: 10
+      - time: .200000003
+        value: 198.199997
+        inSlope: 3.99897957
+        outSlope: 3.99897957
+        tangentMode: 10
+      - time: .433333337
+        value: 187.002853
+        inSlope: -47.9877586
+        outSlope: -47.9877586
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/texing
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -44.6849976
+        inSlope: -.0750160217
+        outSlope: -.0750160217
+        tangentMode: 10
+      - time: .200000003
+        value: -44.7000008
+        inSlope: -.0053582862
+        outSlope: -.0053582862
+        tangentMode: 10
+      - time: .433333337
+        value: -44.6849976
+        inSlope: .0642994493
+        outSlope: .0642994493
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/texing
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 187.002853
+        inSlope: 26.9857025
+        outSlope: 26.9857025
+        tangentMode: 10
+      - time: .200000003
+        value: 192.399994
+        inSlope: -6.74642372
+        outSlope: -6.74642372
+        tangentMode: 10
+      - time: .333333343
+        value: 187.002853
+        inSlope: -40.47855
+        outSlope: -40.47855
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/ruodian
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -64.8849945
+        inSlope: -.0750350952
+        outSlope: -.0750350952
+        tangentMode: 10
+      - time: .200000003
+        value: -64.9000015
+        inSlope: .0187587701
+        outSlope: .0187587701
+        tangentMode: 10
+      - time: .333333343
+        value: -64.8849945
+        inSlope: .112552635
+        outSlope: .112552635
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/ruodian
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: UI_Scale/Ani_fx/Mask01
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: UI_Scale/Ani_fx/Mask
+    classID: 1
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 2721498612
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3476211554
+      attribute: 3063383489
+      script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - path: 2164902602
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1263920376
+      attribute: 1460864421
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1263920376
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3860135283
+      attribute: 1460864421
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3860135283
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3287826117
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3167413898
+      attribute: 1460864421
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3167413898
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1717573351
+      attribute: 1460864421
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1717573351
+      attribute: 538195251
+      script: {fileID: 0}
+      classID: 224
+      customType: 0
+      isPPtrCurve: 0
+    - path: 411746651
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 995775290
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 2.66666675
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 5.14999962
+        outSlope: 5.14999962
+        tangentMode: 10
+      - time: .200000003
+        value: 1.02999997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 1
+        inSlope: -.0999998972
+        outSlope: -.0999998972
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: UI_Scale/Ani_fx
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 5.14999962
+        outSlope: 5.14999962
+        tangentMode: 10
+      - time: .200000003
+        value: 1.02999997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 1
+        inSlope: -.0999998972
+        outSlope: -.0999998972
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: UI_Scale/Ani_fx
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 5.14999962
+        outSlope: 5.14999962
+        tangentMode: 10
+      - time: .200000003
+        value: 1.02999997
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 1
+        inSlope: -.0999998972
+        outSlope: -.0999998972
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: UI_Scale/Ani_fx
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: 0
+        inSlope: 2.99999976
+        outSlope: 2.99999976
+        tangentMode: 10
+      - time: .533333361
+        value: 1
+        inSlope: 2.99999976
+        outSlope: 2.99999976
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_FillAmount
+    path: UI_Scale/Ani_fx/taoxiang
+    classID: 114
+    script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .200000003
+        value: -95.6999969
+        inSlope: 585.000061
+        outSlope: 585.000061
+        tangentMode: 10
+      - time: .233333334
+        value: -76.1999969
+        inSlope: 429.833344
+        outSlope: 429.833344
+        tangentMode: 10
+      - time: .533333361
+        value: 6.19999981
+        inSlope: 272.633331
+        outSlope: 272.633331
+        tangentMode: 10
+      - time: .866666675
+        value: 96.4000015
+        inSlope: 270.600037
+        outSlope: 270.600037
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/Mask/Glow
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 187.002853
+        inSlope: 47.2393188
+        outSlope: 47.2393188
+        tangentMode: 10
+      - time: .266666681
+        value: 199.600006
+        inSlope: 2.624403
+        outSlope: 2.624403
+        tangentMode: 10
+      - time: .566666663
+        value: 187.002853
+        inSlope: -41.9905128
+        outSlope: -41.9905128
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/taitan
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -22.6850014
+        inSlope: -.0562477075
+        outSlope: -.0562477075
+        tangentMode: 10
+      - time: .266666681
+        value: -22.7000008
+        inSlope: -.00312487036
+        outSlope: -.00312487036
+        tangentMode: 10
+      - time: .566666663
+        value: -22.6850014
+        inSlope: .0499979667
+        outSlope: .0499979667
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/taitan
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 270.902863
+        inSlope: 32.6913757
+        outSlope: 32.6913757
+        tangentMode: 10
+      - time: .333333343
+        value: 281.799988
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .666666687
+        value: 270.902863
+        inSlope: -32.6913757
+        outSlope: -32.6913757
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/zi
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -15.784996
+        inSlope: -.0450124741
+        outSlope: -.0450124741
+        tangentMode: 10
+      - time: .333333343
+        value: -15.8000002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .666666687
+        value: -15.784996
+        inSlope: .0450124741
+        outSlope: .0450124741
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/zi
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 1
+        value: -110.300003
+        inSlope: 132.479996
+        outSlope: 132.479996
+        tangentMode: 10
+      - time: 2.66666675
+        value: 110.5
+        inSlope: 132.479996
+        outSlope: 132.479996
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/Mask01/Glow01
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 187.002853
+        inSlope: 55.9857178
+        outSlope: 55.9857178
+        tangentMode: 10
+      - time: .200000003
+        value: 198.199997
+        inSlope: 3.99897957
+        outSlope: 3.99897957
+        tangentMode: 10
+      - time: .433333337
+        value: 187.002853
+        inSlope: -47.9877586
+        outSlope: -47.9877586
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/texing
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -44.6849976
+        inSlope: -.0750160217
+        outSlope: -.0750160217
+        tangentMode: 10
+      - time: .200000003
+        value: -44.7000008
+        inSlope: -.0053582862
+        outSlope: -.0053582862
+        tangentMode: 10
+      - time: .433333337
+        value: -44.6849976
+        inSlope: .0642994493
+        outSlope: .0642994493
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/texing
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 187.002853
+        inSlope: 26.9857025
+        outSlope: 26.9857025
+        tangentMode: 10
+      - time: .200000003
+        value: 192.399994
+        inSlope: -6.74642372
+        outSlope: -6.74642372
+        tangentMode: 10
+      - time: .333333343
+        value: 187.002853
+        inSlope: -40.47855
+        outSlope: -40.47855
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.x
+    path: UI_Scale/Ani_fx/ruodian
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -64.8849945
+        inSlope: -.0750350952
+        outSlope: -.0750350952
+        tangentMode: 10
+      - time: .200000003
+        value: -64.9000015
+        inSlope: .0187587701
+        outSlope: .0187587701
+        tangentMode: 10
+      - time: .333333343
+        value: -64.8849945
+        inSlope: .112552635
+        outSlope: .112552635
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_AnchoredPosition.y
+    path: UI_Scale/Ani_fx/ruodian
+    classID: 224
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: UI_Scale/Ani_fx/Mask01
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_IsActive
+    path: UI_Scale/Ani_fx/Mask
+    classID: 1
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
