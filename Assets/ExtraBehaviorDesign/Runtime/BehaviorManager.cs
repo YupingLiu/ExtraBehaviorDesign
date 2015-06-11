@@ -89,11 +89,6 @@ namespace ExtraBehaviorDesign.Runtime
             }
         }
 
-        public void Tick(Behavior behavior)
-        {
-
-        }
-
         private void Tick(BehaviorTree behaviorTree)
         {
             for (int i = behaviorTree.activeStackList.Count - 1; i >  -1; i--)
@@ -735,29 +730,26 @@ namespace ExtraBehaviorDesign.Runtime
                 // 关于Decorator的特殊逻辑
                 if (task is Decorator && behaviorTree.decoratorIndexList.Contains(taskIndex))
                 {
-                    //PopTask(behaviorTree, taskIndex, stackIndex);
                     taskStatus = behaviorTree.decoratorIndexStatusDic[taskIndex];
                     behaviorTree.decoratorIndexList.Remove(taskIndex);
                     behaviorTree.decoratorIndexStatusDic.Remove(taskIndex);
                     return taskStatus;
                 }
                 taskStatus = parentTask.OverrideStatus(taskStatus);
-                task.NodeData.ExecutionStatus = taskStatus;
             }
             // 第四步：如果是子节点，直接跑自己的OnUpdate
             else
             {
                 taskStatus = task.OnUpdate();
-                task.NodeData.ExecutionStatus = taskStatus;
             }
+
+            // 保存好本帧自己的执行结果
+            task.NodeData.ExecutionStatus = taskStatus;
+
             // 第五步：不管是正常跑完还是非正常终止的都要调下OnEnd
-            if (taskStatus != TaskStatus.Running)
+            if (TaskStatus.Running != taskStatus)  
             {
                 PopTask(behaviorTree, taskIndex, stackIndex, (task is ParentTask));
-                //if (task is Decorator)
-                //{
-                //    behaviorTree.decoratorIndexStatusDic.Add(taskIndex, taskStatus);
-                //}
             }
             return taskStatus;
         }
